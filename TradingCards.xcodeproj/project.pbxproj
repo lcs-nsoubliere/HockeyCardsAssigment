@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8192AB32736C23E0045FBEE /* HockeyCardsAssigmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8192AB22736C23E0045FBEE /* HockeyCardsAssigmentApp.swift */; };
+		C8192AB32736C23E0045FBEE /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8192AB22736C23E0045FBEE /* TradingCardsApp.swift */; };
 		C8192AB52736C23E0045FBEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8192AB42736C23E0045FBEE /* ContentView.swift */; };
 		C8192AB72736C2440045FBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8192AB62736C2440045FBEE /* Assets.xcassets */; };
 		C8192ABA2736C2440045FBEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8192AB92736C2440045FBEE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C8192AAF2736C23E0045FBEE /* HockeyCardsAssigment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HockeyCardsAssigment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8192AB22736C23E0045FBEE /* HockeyCardsAssigmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyCardsAssigmentApp.swift; sourceTree = "<group>"; };
+		C8192AAF2736C23E0045FBEE /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8192AB22736C23E0045FBEE /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 		C8192AB42736C23E0045FBEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8192AB62736C2440045FBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8192AB92736C2440045FBEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		C8192AA62736C23E0045FBEE = {
 			isa = PBXGroup;
 			children = (
-				C8192AB12736C23E0045FBEE /* HockeyCardsAssigment */,
+				C8192AB12736C23E0045FBEE /* TradingCardsAssigment */,
 				C8192AB02736C23E0045FBEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		C8192AB02736C23E0045FBEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8192AAF2736C23E0045FBEE /* HockeyCardsAssigment.app */,
+				C8192AAF2736C23E0045FBEE /* TradingCards.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C8192AB12736C23E0045FBEE /* HockeyCardsAssigment */ = {
+		C8192AB12736C23E0045FBEE /* TradingCardsAssigment */ = {
 			isa = PBXGroup;
 			children = (
-				C8192AB22736C23E0045FBEE /* HockeyCardsAssigmentApp.swift */,
+				C8192AB22736C23E0045FBEE /* TradingCardsApp.swift */,
 				C8192AB42736C23E0045FBEE /* ContentView.swift */,
 				C8192AB62736C2440045FBEE /* Assets.xcassets */,
 				C8192AB82736C2440045FBEE /* Preview Content */,
 			);
-			path = HockeyCardsAssigment;
+			path = TradingCardsAssigment;
 			sourceTree = "<group>";
 		};
 		C8192AB82736C2440045FBEE /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8192AAE2736C23E0045FBEE /* HockeyCardsAssigment */ = {
+		C8192AAE2736C23E0045FBEE /* TradingCards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8192ABD2736C2440045FBEE /* Build configuration list for PBXNativeTarget "HockeyCardsAssigment" */;
+			buildConfigurationList = C8192ABD2736C2440045FBEE /* Build configuration list for PBXNativeTarget "TradingCards" */;
 			buildPhases = (
 				C8192AAB2736C23E0045FBEE /* Sources */,
 				C8192AAC2736C23E0045FBEE /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = HockeyCardsAssigment;
+			name = TradingCards;
 			productName = HockeyCardsAssigment;
-			productReference = C8192AAF2736C23E0045FBEE /* HockeyCardsAssigment.app */;
+			productReference = C8192AAF2736C23E0045FBEE /* TradingCards.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C8192AAA2736C23E0045FBEE /* Build configuration list for PBXProject "HockeyCardsAssigment" */;
+			buildConfigurationList = C8192AAA2736C23E0045FBEE /* Build configuration list for PBXProject "TradingCards" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8192AAE2736C23E0045FBEE /* HockeyCardsAssigment */,
+				C8192AAE2736C23E0045FBEE /* TradingCards */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8192AB52736C23E0045FBEE /* ContentView.swift in Sources */,
-				C8192AB32736C23E0045FBEE /* HockeyCardsAssigmentApp.swift in Sources */,
+				C8192AB32736C23E0045FBEE /* TradingCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HockeyCardsAssigment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TradingCards/Preview Content\"";
 				DEVELOPMENT_TEAM = 43F5Y2Y424;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HockeyCardsAssigment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TradingCards/Preview Content\"";
 				DEVELOPMENT_TEAM = 43F5Y2Y424;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8192AAA2736C23E0045FBEE /* Build configuration list for PBXProject "HockeyCardsAssigment" */ = {
+		C8192AAA2736C23E0045FBEE /* Build configuration list for PBXProject "TradingCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8192ABB2736C2440045FBEE /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8192ABD2736C2440045FBEE /* Build configuration list for PBXNativeTarget "HockeyCardsAssigment" */ = {
+		C8192ABD2736C2440045FBEE /* Build configuration list for PBXNativeTarget "TradingCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8192ABE2736C2440045FBEE /* Debug */,
