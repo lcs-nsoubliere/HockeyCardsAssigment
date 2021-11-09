@@ -16,7 +16,7 @@ struct EnhancedListItem: View {
     
     // MARK: Computed Properties
     var body: some View {
-        HStack {
+        VStack {
             Image(imageName)
                 .resizable()
                 .scaledToFill()
@@ -37,7 +37,7 @@ struct EnhancedListItem: View {
 struct EnhancedListItem_Previews: PreviewProvider {
     static var previews: some View {
         EnhancedListItem(imageName: "RedekBonk",
-                         title: "Redek Bonk", subtitle: "")
+                         title: "Redek Bonk", subtitle: "Subtitle")
     }
 }
 }
