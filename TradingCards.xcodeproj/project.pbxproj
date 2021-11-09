@@ -11,6 +11,11 @@
 		C8192AB52736C23E0045FBEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8192AB42736C23E0045FBEE /* ContentView.swift */; };
 		C8192AB72736C2440045FBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8192AB62736C2440045FBEE /* Assets.xcassets */; };
 		C8192ABA2736C2440045FBEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8192AB92736C2440045FBEE /* Preview Assets.xcassets */; };
+		C8BDBFA927398D4D0082B0EB /* TradingCardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BDBFA827398D4D0082B0EB /* TradingCardsListView.swift */; };
+		C8BDBFAB27398F0B0082B0EB /* RadekBonkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BDBFAA27398F0B0082B0EB /* RadekBonkView.swift */; };
+		C8BDBFAE273990B80082B0EB /* EnhancedListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BDBFAD273990B80082B0EB /* EnhancedListItemView.swift */; };
+		C8C998AA273B095F00243269 /* MarkStoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C998A9273B095F00243269 /* MarkStoneView.swift */; };
+		C8C998AC273B0B3400243269 /* BradyTkuchukView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C998AB273B0B3400243269 /* BradyTkuchukView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		C8192AB42736C23E0045FBEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8192AB62736C2440045FBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8192AB92736C2440045FBEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8BDBFA827398D4D0082B0EB /* TradingCardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsListView.swift; sourceTree = "<group>"; };
+		C8BDBFAA27398F0B0082B0EB /* RadekBonkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadekBonkView.swift; sourceTree = "<group>"; };
+		C8BDBFAD273990B80082B0EB /* EnhancedListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedListItemView.swift; sourceTree = "<group>"; };
+		C8C998A9273B095F00243269 /* MarkStoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkStoneView.swift; sourceTree = "<group>"; };
+		C8C998AB273B0B3400243269 /* BradyTkuchukView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BradyTkuchukView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				C8192AB22736C23E0045FBEE /* TradingCardsApp.swift */,
+				C8BDBFA727398CD60082B0EB /* TradingCardsViews */,
 				C8192AB42736C23E0045FBEE /* ContentView.swift */,
 				C8192AB62736C2440045FBEE /* Assets.xcassets */,
 				C8192AB82736C2440045FBEE /* Preview Content */,
@@ -65,6 +76,18 @@
 				C8192AB92736C2440045FBEE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8BDBFA727398CD60082B0EB /* TradingCardsViews */ = {
+			isa = PBXGroup;
+			children = (
+				C8BDBFAD273990B80082B0EB /* EnhancedListItemView.swift */,
+				C8BDBFA827398D4D0082B0EB /* TradingCardsListView.swift */,
+				C8BDBFAA27398F0B0082B0EB /* RadekBonkView.swift */,
+				C8C998A9273B095F00243269 /* MarkStoneView.swift */,
+				C8C998AB273B0B3400243269 /* BradyTkuchukView.swift */,
+			);
+			path = TradingCardsViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8BDBFA927398D4D0082B0EB /* TradingCardsListView.swift in Sources */,
 				C8192AB52736C23E0045FBEE /* ContentView.swift in Sources */,
+				C8BDBFAB27398F0B0082B0EB /* RadekBonkView.swift in Sources */,
+				C8C998AA273B095F00243269 /* MarkStoneView.swift in Sources */,
+				C8BDBFAE273990B80082B0EB /* EnhancedListItemView.swift in Sources */,
+				C8C998AC273B0B3400243269 /* BradyTkuchukView.swift in Sources */,
 				C8192AB32736C23E0045FBEE /* TradingCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TradingCards/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TradingCardsAssignment/Preview Content\"";
 				DEVELOPMENT_TEAM = 43F5Y2Y424;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TradingCards/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TradingCardsAssignment/Preview Content\"";
 				DEVELOPMENT_TEAM = 43F5Y2Y424;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
