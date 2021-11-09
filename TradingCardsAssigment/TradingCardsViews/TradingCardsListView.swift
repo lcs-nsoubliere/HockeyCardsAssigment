@@ -23,16 +23,26 @@ struct TradingCardsListView: View {
                 EnhancedListItem(imageName: "MarkStone", title: "Mark Stone", subtitle: "")
             })
             NavigationLink(destination:{
-                BradyTkuchukView()
+                BradyTkachukView()
             }, label: {
-                EnhancedListItem(imageName: "BradyTkuchuk", title: "Brady Tkuchuk", subtitle: "")
+                EnhancedListItem(imageName: "BradyTkachuk", title: "Brady Tkachuk", subtitle: "")
             })
-                           }
-                           }
-                           
-                           struct TradingCardsListView_Previews: PreviewProvider {
-                static var previews: some View {
-                    TradingCardsListView()
-                }
-            }
-                           }
+            NavigationLink(destination:{
+                TimStutzleView()
+            }, label: {
+                EnhancedListItem(imageName: "TimStutzle", title: "Tim Stützle", subtitle: "")
+            })
+        }
+        .navigationTitle("Top 5 Hockey Players")
+    }
+    
+}
+
+struct TradingCardsListView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView {
+            TradingCardsListView()
+        }
+    }
+}
+

@@ -15,7 +15,8 @@
 		C8BDBFAB27398F0B0082B0EB /* RadekBonkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BDBFAA27398F0B0082B0EB /* RadekBonkView.swift */; };
 		C8BDBFAE273990B80082B0EB /* EnhancedListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BDBFAD273990B80082B0EB /* EnhancedListItemView.swift */; };
 		C8C998AA273B095F00243269 /* MarkStoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C998A9273B095F00243269 /* MarkStoneView.swift */; };
-		C8C998AC273B0B3400243269 /* BradyTkuchukView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C998AB273B0B3400243269 /* BradyTkuchukView.swift */; };
+		C8C998AC273B0B3400243269 /* BradyTkachukView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C998AB273B0B3400243269 /* BradyTkachukView.swift */; };
+		C8C998AE273B0D5000243269 /* TimStutzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C998AD273B0D5000243269 /* TimStutzleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,8 @@
 		C8BDBFAA27398F0B0082B0EB /* RadekBonkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadekBonkView.swift; sourceTree = "<group>"; };
 		C8BDBFAD273990B80082B0EB /* EnhancedListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedListItemView.swift; sourceTree = "<group>"; };
 		C8C998A9273B095F00243269 /* MarkStoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkStoneView.swift; sourceTree = "<group>"; };
-		C8C998AB273B0B3400243269 /* BradyTkuchukView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BradyTkuchukView.swift; sourceTree = "<group>"; };
+		C8C998AB273B0B3400243269 /* BradyTkachukView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BradyTkachukView.swift; sourceTree = "<group>"; };
+		C8C998AD273B0D5000243269 /* TimStutzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimStutzleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,8 @@
 				C8BDBFA827398D4D0082B0EB /* TradingCardsListView.swift */,
 				C8BDBFAA27398F0B0082B0EB /* RadekBonkView.swift */,
 				C8C998A9273B095F00243269 /* MarkStoneView.swift */,
-				C8C998AB273B0B3400243269 /* BradyTkuchukView.swift */,
+				C8C998AB273B0B3400243269 /* BradyTkachukView.swift */,
+				C8C998AD273B0D5000243269 /* TimStutzleView.swift */,
 			);
 			path = TradingCardsViews;
 			sourceTree = "<group>";
@@ -160,12 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C998AE273B0D5000243269 /* TimStutzleView.swift in Sources */,
 				C8BDBFA927398D4D0082B0EB /* TradingCardsListView.swift in Sources */,
 				C8192AB52736C23E0045FBEE /* ContentView.swift in Sources */,
 				C8BDBFAB27398F0B0082B0EB /* RadekBonkView.swift in Sources */,
 				C8C998AA273B095F00243269 /* MarkStoneView.swift in Sources */,
 				C8BDBFAE273990B80082B0EB /* EnhancedListItemView.swift in Sources */,
-				C8C998AC273B0B3400243269 /* BradyTkuchukView.swift in Sources */,
+				C8C998AC273B0B3400243269 /* BradyTkachukView.swift in Sources */,
 				C8192AB32736C23E0045FBEE /* TradingCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BradyTkuchukView: View {
+struct BradyTkachukView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
@@ -15,6 +15,6 @@ struct BradyTkuchukView: View {
 
 struct BradyTkuchukView_Previews: PreviewProvider {
     static var previews: some View {
-        BradyTkuchukView()
+        BradyTkachukView()
     }
 }
