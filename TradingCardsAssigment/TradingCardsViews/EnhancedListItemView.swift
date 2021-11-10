@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct EnhancedListItem: View {
-   
+    
     // MARK: Stored properties
     let imageName: String
     let title: String
@@ -20,7 +20,7 @@ struct EnhancedListItem: View {
             Image(imageName)
                 .resizable()
                 .scaledToFill()
-                .frame(width: 50, height: 50, alignment: .center)
+                .frame(width: 40, height: 40, alignment: .center)
                 .clipped()
             
             VStack(alignment: .leading) {
@@ -30,14 +30,14 @@ struct EnhancedListItem: View {
                 
                 Text(subtitle)
                     .font(.caption)
+            }
         }
     }
-}
-
-struct EnhancedListItem_Previews: PreviewProvider {
-    static var previews: some View {
-        EnhancedListItem(imageName: "RedekBonk",
-                         title: "Redek Bonk", subtitle: "Subtitle")
+    
+    struct EnhancedListItem_Previews: PreviewProvider {
+        static var previews: some View {
+            EnhancedListItem(imageName: "RedekBonk",
+                             title: "Redek Bonk", subtitle: "Subtitle")
+        }
     }
-}
 }

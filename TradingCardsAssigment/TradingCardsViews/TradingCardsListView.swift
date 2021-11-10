@@ -45,4 +45,3 @@ struct TradingCardsListView_Previews: PreviewProvider {
         }
     }
 }
-

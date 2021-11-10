@@ -11,13 +11,16 @@ struct RadekBonkView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
+                Image("RedekBonk")
+                    .resizable()
+                    .scaledToFit()
+            }
         }
     }
-}
-
-struct RadekBonkView_Previews: PreviewProvider {
-    static var previews: some View {
-        RadekBonkView()
+    
+    struct RadekBonkView_Previews: PreviewProvider {
+        static var previews: some View {
+            RadekBonkView()
+        }
     }
-}
 }
