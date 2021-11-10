@@ -32,6 +32,11 @@ struct TradingCardsListView: View {
             }, label: {
                 EnhancedListItem(imageName: "TimStutzle", title: "Tim Stützle", subtitle: "")
             })
+            NavigationLink(destination:{
+                NoahSoubliereView()
+            }, label: {
+                EnhancedListItem(imageName: "NoahSoubliere", title: "Noah Soubliere", subtitle: "")
+            })
         }
         .navigationTitle("Top 5 Hockey Players")
     }

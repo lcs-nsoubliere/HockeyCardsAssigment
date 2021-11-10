@@ -25,4 +25,6 @@ let listOfItems = [
     HockeyPlayers(imageName: "BradyTkachuk", title: "Brady Tkachuk", navigationSubtitle: "navigationSubtitle", imageCaption: "imageCaption", imageCredit: "imageCredit", bodyText: "bodyText")
     ,
     HockeyPlayers(imageName: "TimStutzle", title: "Tim Stüzle", navigationSubtitle: "navigationSubtitle", imageCaption: "imageCaption", imageCredit: "imageCredit", bodyText: "bodyText")
+    ,
+    HockeyPlayers(imageName: "NoahSoubliere", title: "Noah Soubliere", navigationSubtitle: "navigationSubtitle", imageCaption: "imageCaption", imageCredit: "imageCredit", bodyText: "bodyText")
 ]

@@ -36,8 +36,8 @@ struct EnhancedListItem: View {
     
     struct EnhancedListItem_Previews: PreviewProvider {
         static var previews: some View {
-            EnhancedListItem(imageName: "RedekBonk",
-                             title: "Redek Bonk", subtitle: "Subtitle")
+            EnhancedListItem(imageName: "imageName",
+                             title: "title", subtitle: "subtitle")
         }
     }
 }
