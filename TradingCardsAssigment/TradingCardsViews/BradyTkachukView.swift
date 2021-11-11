@@ -14,6 +14,30 @@ struct BradyTkachukView: View {
                 Image("BradyTkachuk")
                     .resizable()
                     .scaledToFit()
+                
+                VStack {
+                        Text("""
+
+Name
+
+Age
+
+Position
+
+Team
+
+
+
+
+
+""")
+                        .foregroundColor(.white)
+                        .bold()
+                        
+                             Divider()
+                        Spacer()
+                    }
+                    .background(Color.red)
             }
         }
     }

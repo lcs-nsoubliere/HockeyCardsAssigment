@@ -14,6 +14,29 @@ struct TimStutzleView: View {
                 Image("TimStutzle")
                     .resizable()
                     .scaledToFit()
+                VStack {
+                        Text("""
+
+Name
+
+Age
+
+Position
+
+Team
+
+
+
+
+
+""")
+                        .foregroundColor(.white)
+                        .bold()
+                        
+                             Divider()
+                        Spacer()
+                    }
+                    .background(Color.red)
             }
         }
     }

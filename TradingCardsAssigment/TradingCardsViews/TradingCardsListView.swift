@@ -15,30 +15,30 @@ struct TradingCardsListView: View {
                 RadekBonkView()
             }, label: {
                 EnhancedListItem(imageName: "RedekBonk",
-                                 title: "Redek Bonk", subtitle: "")
+                                 title: "Radek Bonk", subtitle: "#14")
             })
             NavigationLink(destination:{
                 MarkStoneView()
             }, label: {
-                EnhancedListItem(imageName: "MarkStone", title: "Mark Stone", subtitle: "")
+                EnhancedListItem(imageName: "MarkStone", title: "Mark Stone", subtitle: "#61")
             })
             NavigationLink(destination:{
                 BradyTkachukView()
             }, label: {
-                EnhancedListItem(imageName: "BradyTkachuk", title: "Brady Tkachuk", subtitle: "")
+                EnhancedListItem(imageName: "BradyTkachuk", title: "Brady Tkachuk", subtitle: "#7")
             })
             NavigationLink(destination:{
                 TimStutzleView()
             }, label: {
-                EnhancedListItem(imageName: "TimStutzle", title: "Tim Stützle", subtitle: "")
+                EnhancedListItem(imageName: "TimStutzle", title: "Tim Stützle", subtitle: "#18")
             })
             NavigationLink(destination:{
                 NoahSoubliereView()
             }, label: {
-                EnhancedListItem(imageName: "NoahSoubliere", title: "Noah Soubliere", subtitle: "")
+                EnhancedListItem(imageName: "NoahSoubliere", title: "Noah Soubliere", subtitle: "#3")
             })
         }
-        .navigationTitle("Top 5 Hockey Players")
+        .navigationTitle("Top Hockey Players")
     }
     
 }

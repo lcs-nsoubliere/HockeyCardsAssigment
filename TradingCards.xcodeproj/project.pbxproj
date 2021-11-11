@@ -97,12 +97,12 @@
 			children = (
 				C8790D8F273B547100B503EA /* Model */,
 				C8BDBFA827398D4D0082B0EB /* TradingCardsListView.swift */,
-				C8BDBFAD273990B80082B0EB /* EnhancedListItemView.swift */,
 				C8BDBFAA27398F0B0082B0EB /* RadekBonkView.swift */,
 				C8C998A9273B095F00243269 /* MarkStoneView.swift */,
 				C8C998AB273B0B3400243269 /* BradyTkachukView.swift */,
 				C8C998AD273B0D5000243269 /* TimStutzleView.swift */,
 				C8790D92273B5EF200B503EA /* NoahSoubliereView.swift */,
+				C8BDBFAD273990B80082B0EB /* EnhancedListItemView.swift */,
 			);
 			path = TradingCardsViews;
 			sourceTree = "<group>";

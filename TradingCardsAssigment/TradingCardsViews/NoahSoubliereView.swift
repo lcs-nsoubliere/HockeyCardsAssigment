@@ -14,6 +14,30 @@ struct NoahSoubliereView: View {
                 Image("NoahSoubliere")
                     .resizable()
                     .scaledToFit()
+               
+                VStack {
+                        Text("""
+
+Name
+
+Age
+
+Position
+
+Team
+
+
+
+
+
+""")
+                        .foregroundColor(.red)
+                        .bold()
+                        
+                             Divider()
+                        Spacer()
+                    }
+                    .background(Color.green)
             }
         }
     }
