@@ -18,15 +18,15 @@ struct BradyTkachukView: View {
                 VStack {
                         Text("""
 
-Name
+Name - Brady Tkachuk
 
-Age
+Age - 22
 
-Position
+Position - Left Wing
 
-Team
+Team - Ottawa Senators
 
-
+Shot - Right
 
 
 

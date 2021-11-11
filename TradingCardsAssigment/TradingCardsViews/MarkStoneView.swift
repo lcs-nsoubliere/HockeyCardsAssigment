@@ -18,13 +18,15 @@ struct MarkStoneView: View {
                 VStack {
                         Text("""
 
-Name
+Name - Mark Stone
 
-Age
+Age - 29
 
-Position
+Position - Right Wing
 
-Team
+Team - Ottawa Sentaors
+
+Shot - Left
 
 
 

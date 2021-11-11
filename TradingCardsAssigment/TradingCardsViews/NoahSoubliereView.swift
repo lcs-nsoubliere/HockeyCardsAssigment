@@ -18,13 +18,15 @@ struct NoahSoubliereView: View {
                 VStack {
                         Text("""
 
-Name
+Name - Noah Soubliere
 
-Age
+Age - 16
 
-Position
+Position - Right Defense
 
-Team
+Team - Lakefield College School
+
+Shot - Left
 
 
 

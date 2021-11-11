@@ -17,13 +17,15 @@ struct TimStutzleView: View {
                 VStack {
                         Text("""
 
-Name
+Name - Tim Stützle
 
-Age
+Age - 19
 
-Position
+Position - Left Wing
 
-Team
+Team - Ottawa Sentaors
+
+Shot - Right
 
 
 

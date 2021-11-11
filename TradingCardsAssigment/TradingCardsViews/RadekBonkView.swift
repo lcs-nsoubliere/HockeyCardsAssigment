@@ -18,15 +18,15 @@ struct RadekBonkView: View {
                 VStack {
                         Text("""
 
-Name
+Name - Radek Bonk
 
-Age
+Age - 29 (In Picture)
 
-Position
+Position - Center
 
-Team
+Team - Ottawa Senators
 
-
+Shot - Left
 
 
 
