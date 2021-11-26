@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C8192AB32736C23E0045FBEE /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8192AB22736C23E0045FBEE /* TradingCardsApp.swift */; };
-		C8192AB52736C23E0045FBEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8192AB42736C23E0045FBEE /* ContentView.swift */; };
 		C8192AB72736C2440045FBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8192AB62736C2440045FBEE /* Assets.xcassets */; };
 		C8192ABA2736C2440045FBEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8192AB92736C2440045FBEE /* Preview Assets.xcassets */; };
 		C8790D91273B549C00B503EA /* HockeyPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8790D90273B549C00B503EA /* HockeyPlayers.swift */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		C8192AAF2736C23E0045FBEE /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8192AB22736C23E0045FBEE /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
-		C8192AB42736C23E0045FBEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C8192AB62736C2440045FBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8192AB92736C2440045FBEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C8790D90273B549C00B503EA /* HockeyPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyPlayers.swift; sourceTree = "<group>"; };
@@ -68,8 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				C8192AB22736C23E0045FBEE /* TradingCardsApp.swift */,
-				C8BDBFA727398CD60082B0EB /* TradingCardsViews */,
-				C8192AB42736C23E0045FBEE /* ContentView.swift */,
+				C8BDBFA727398CD60082B0EB /* Views */,
 				C8192AB62736C2440045FBEE /* Assets.xcassets */,
 				C8192AB82736C2440045FBEE /* Preview Content */,
 			);
@@ -92,9 +89,10 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C8BDBFA727398CD60082B0EB /* TradingCardsViews */ = {
+		C8BDBFA727398CD60082B0EB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C8D6037A2751738E006BF974 /* Shared */,
 				C8790D8F273B547100B503EA /* Model */,
 				C8BDBFA827398D4D0082B0EB /* TradingCardsListView.swift */,
 				C8BDBFAA27398F0B0082B0EB /* RadekBonkView.swift */,
@@ -102,9 +100,16 @@
 				C8C998AB273B0B3400243269 /* BradyTkachukView.swift */,
 				C8C998AD273B0D5000243269 /* TimStutzleView.swift */,
 				C8790D92273B5EF200B503EA /* NoahSoubliereView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C8D6037A2751738E006BF974 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
 				C8BDBFAD273990B80082B0EB /* EnhancedListItemView.swift */,
 			);
-			path = TradingCardsViews;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +185,6 @@
 				C8C998AE273B0D5000243269 /* TimStutzleView.swift in Sources */,
 				C8790D91273B549C00B503EA /* HockeyPlayers.swift in Sources */,
 				C8BDBFA927398D4D0082B0EB /* TradingCardsListView.swift in Sources */,
-				C8192AB52736C23E0045FBEE /* ContentView.swift in Sources */,
 				C8BDBFAB27398F0B0082B0EB /* RadekBonkView.swift in Sources */,
 				C8C998AA273B095F00243269 /* MarkStoneView.swift in Sources */,
 				C8BDBFAE273990B80082B0EB /* EnhancedListItemView.swift in Sources */,
